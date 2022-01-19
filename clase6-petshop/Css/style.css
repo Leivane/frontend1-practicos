@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+{
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.idiombar {
+  background-color: #222222;
+  color: #f3f3f3;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  padding-right: 50px;
+}
+.idiombar p {
+  display: flex;
+  padding-left: 90px;
+  align-items: center;
+}
+.navbar {
+  background-color: #f0a83e;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.navbar img {
+  height: 40%;
+  align-self: center;
+}
+.navbar a {
+  color: white;
+  text-transform: capitalize;
+  padding-left: 40px;
+  text-decoration: none;
+}
+nav {
+  align-self: center;
+}
+.navbar a::before {
+  background-image: url("../img/catpaw.png");
+  background-size: 25px 20px;
+  display: inline-block;
+  margin-right: 5px;
+  width: 25px;
+  height: 20px;
+  content: "";
+}
+.bannerppal {
+  background-image: url("../img/bowl-and-pet.png");
+  background-size: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bannerppal h2,
+h4 {
+  position: absolute;
+}
+.bannerppal h2 {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 5px;
+  top: 45%;
+  left: 67%;
+}
+.bannerppal h4 {
+  top: 58%;
+  left: 73%;
+}
+.bannerppal button {
+  font-size: 20px;
+  color: white;
+  width: 150px;
+  height: 50px;
+  background-color: #f0a83e;
+  border-radius: 5px;
+  border: transparent none 0;
+  text-transform: uppercase;
+  position: absolute;
+  top: 65%;
+  left: 75%;
+}
+h1 {
+  color: #3c2313;
+  text-transform: capitalize;
+  font-size: 60px;
+}
+.fa-paw {
+  color: #f0a83e;
+  font-size: 80px;
+}
+.productsbanner {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0px;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.categories span {
+  text-transform: capitalize;
+  color: #666666;
+  font-size: 25px;
+}
+.priceproducts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+.product {
+  background-color: #fbfaf6;
+  text-align: center;
+}
+.price {
+  color: #f0a83e;
+  font-weight: 500;
+}
+.productname {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+h3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 25px;
+  color: #3c2313;
+  text-align: center;
+}
+.formcontact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 280px;
+}
+form input {
+  background-color: #3c2313;
+  width: 20%;
+  border-radius: 15px;
+  border: transparent none 0;
+  height: 40px;
+}
+input::placeholder {
+  color: #ffffff;
+  padding-left: 10px;
+  font-size: 9px;
+}
+.buttons {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+button.reset {
+  background-color: #8a8787;
+  color: #ffffff;
+  border-radius: 15px;
+  border: transparent none 0;
+  width: 90px;
+  height: 30px;
+}
+button.enviar {
+  background-color: #f0a83e;
+  color: #ffffff;
+  border-radius: 15px;
+  border: transparent none 0;
+  width: 90px;
+  height: 30px;
+}
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0a83e;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  height: 60px;
+  padding: 0 40px;
+}
+.fa-envelope-open-text {
+  font-size: 40px;
+  padding-right: 20px;
+}
+input.mailsubscribe {
+  height: 40px;
+  width: 280px;
+  border-radius: 20px;
+  border: transparent none 0;
+}
+input.mailsubscribe::placeholder {
+  color: #a0a0a0;
+}
+button.subscribe {
+  background-color: #3c2313;
+  color: #ffffff;
+  border-radius: 20px;
+  border: transparent none 0;
+  width: 90px;
+  height: 35px;
+  font-size: 9px;
+}
+.bannerfooter {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+}
+.bannerfooter i {
+  color: white;
+  width: 40px;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+.iconsfooter {
+  display: flex;
+}
+.iconsfooter span {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+.iconsfooter p {
+  font-weight: 700;
+  font-size: 12px;
+  color: #8a8787;
+  margin-top: 3px;
+}
+.right-reserved {
+  background-color: #222222;
+  color: #ffffff;
+  font-size: 10px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+}
