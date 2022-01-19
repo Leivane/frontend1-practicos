@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.descuentos {
+  background-color: #1cd1b0;
+}
+.descuentos p {
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.bannertienda {
+  background-color: #00669f;
+  color: white;
+  padding: 10px;
+}
+.bannertienda span {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.fas {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px 300px;
+}
+.titulo1 {
+  text-transform: capitalize;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 32px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  justify-content: space-between;
+}
+.login input {
+  font-size: 15px;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+}
+.login button.enviar {
+  margin-bottom: 10px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #1cd1b0;
+}
+.login select {
+  height: 30px;
+}
+.crearcuenta {
+  color: #00669f;
+  text-decoration: none;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669f;
+  color: white;
+  height: 50px;
+}
+.login2 {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  justify-content: space-between;
+}
+.login2 input {
+  font-size: 15px;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+}
+.login2 button.enviar {
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #1cd1b0;
+}
+.login2 select {
+  height: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 170px;
+}
+.login2 button.reset {
+  height: 30px;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #888888;
+  color: white;
+}
+.barranav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #001d2d;
+  height: 30px;
+}
+.barranav a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 25px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+.perfil {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 600px;
+  background-color: #f3f3f3;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+}
+.batman {
+  background-image: url("../img/fondo-batman.png");
+}
+.superman {
+  background-image: url("../img/fondo-superman.png");
+}
+.wonder-woman {
+  background-image: url("../img/fondo-mujer-maravilla.png");
+}
+.harleyQ {
+  background-image: url("../img/fondo-hq.png");
+}
+div h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+section img {
+  border-radius: 50%;
+}
+.historia {
+  margin-top: 160px;
+}
+.historia p {
+  padding: 10px 20px;
+  height: 200px;
+}
+.foto-perfil {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  left: 90px;
+  top: 130px;
+}
+.fa-heart {
+  color: red;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 25px;
+}
+.ver-mas {
+  margin-top: 20px;
+  background-color: #00669f;
+  color: white;
+  position: relative;
+  left: 100px;
+  bottom: 5px;
+  padding: 5px 10px;
+}
+.login3 {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+}
+.login3 input {
+  font-size: 15px;
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+}
+.login3 button.enviar {
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #1cd1b0;
+}
+
+.login3 button.reset {
+  height: 30px;
+  border-radius: 40px;
+  border: transparent none 0px;
+  background-color: #888888;
+  color: white;
+}
+.fa-store {
+  color: white;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Heroes</title>
+    <link rel="stylesheet" href="Css/style.css" />
+</head>
+  <body>
+    <header>
+      <div class="descuentos">
+        <p>20% de descuento en todos los productos!</p>
+      </div>
+      <div class="bannertienda">
+        <i class="fas fa-store"></i>
+        <span>heroes shop</span>
+      </div>
+    </header>
+    <main>
+      <section class="registro">
+        <div class="titulo1">
+          <h1>login</h1>
+        </div>
+        <div>
+          <form class="login" action="views/principal.html" method="POST">
+            <input type="text" name="usuario" placeholder="Usuario" />
+            <input type="password" name="password" placeholder="Contraseña" />
+            <button class="enviar" type="submit">Entrar</button>
+          </form>
+        </div>
+        <div class>
+          <a class="crearcuenta" href="views/registro.html"
+            >¿No tienes una cuenta?</a
+          >
+          <span>Registrarme</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>

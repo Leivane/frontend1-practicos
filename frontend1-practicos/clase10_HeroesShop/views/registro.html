@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda Heroes</title>
+    <link rel="stylesheet" href="../Css/style.css" />
+</head>
+  <body>
+    <header>
+      <div class="descuentos">
+        <p>20% de descuento en todos los productos!</p>
+      </div>
+      <div class="bannertienda">
+        <i class="fas fa-store"></i>
+        <span>heroes shop</span>
+      </div>
+    </header>
+    <main>
+      <section class="registro">
+        <div class="titulo1">
+          <h1>Registro</h1>
+        </div>
+        <div>
+          <form class="login2" action="/registro" method="POST">
+            <input type="text" name="usuario" placeholder="Nombre y Apellido" />
+            <input type="email" name="email" placeholder="Correo Electrónico" />
+            <input type="password" name="password" placeholder="Contraseña" />
+            <select name="pais">
+              <option disabled selected>País</option>
+              <option value="arg">Argentina</option>
+              <option value="col">Colombia</option>
+              <option value="br">Brasil</option>
+            </select>
+            <div class="buttons">
+              <button class="reset" type="reset">Resetear</button>
+              <button class="enviar" type="submit">Registrar</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <span>¿Ya tenes una cuenta?</span>
+          <a class="crearcuenta" href="../index.html">Ingresa</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+  </body>
+</html>
